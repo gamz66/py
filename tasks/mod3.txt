@@ -1,0 +1,57 @@
+1
+
+a = str(input())
+b = a.split(" ")
+print(len(b))
+
+Hello world
+2
+
+
+2
+
+a = str(input())
+b = a.split(" ")
+print(b[1], b[0])
+
+Hello world
+world Hello
+
+
+3
+
+a = str(input())
+res = []
+if a.count("f") > 1:
+  res.append(a.find("f"))
+  res.append(a.rfind("f"))
+elif a.count("f") == 1:
+  res.append(a.find("f"))
+else:
+  res.append(-1)
+print(res)
+
+comfort
+[3]
+
+
+4
+
+a = str(input())
+a = a.replace("1", "one")
+print(a)
+
+1+1=2
+one+one=2
+     
+
+5
+
+a = str(input())
+a = a.replace("@", "")
+print(a)
+
+john@smith.com
+johnsmith.com
+
+
